@@ -1,0 +1,60 @@
+Research : -
+
+What is Laravel?
+
+its a open source php web framework
+help you to build a web application without writing code from scratch .**
+
+
+Why do developers use Laravel?
+
+because Laravel provide built-in tools like  cashing , routing , authentication
+
+and the developer do not have to write code from scratch and focus in the main features .
+
+also to organize code (MVC)
+model-view-controller
+separate logic , data and presentation
+that will make code easy to read and maintain.
+
+bulit-in protiction against sql injection and xss and pass hashing
+
+++ its good for projects of any size
+(High scalability).
+
+
+What is the difference between Laravel and plain PHP?
+
+in plain php you must write your code from scratch and doing all things like prevent sql injection and xss
+
+but in laravel there is a built-in tools will help you to skip a primary steps and focus in the main features .
+
+also when you use plain php in big projects it will be hard to maintain unlike laravel (mvc) model-view-controller
+its orgnize every thing so it will be easy to maintain .
+
+
+
+List at least 5 key features of Laravel.
+
+1-mvc model-view-controller :separte data , logic ,presentaion
+2-Eloquent ORM: simplify database operations
+3-Routing system : lets you define urls and thier action easily
+4- Built-in authentication and security
+5-Blade Templates : Build pages faster
+
+
+What is Composer, and why does Laravel depend on it?
+
+its a tool to manage packages and collect all laibraries you will need into your laravel projects.
+
+What is Artisan in Laravel?
+
+its a command line tool to write a repeated tasks and make the project managemetn easier
+it can bulid files quickly and make localserver work also db management.
+
+Why is Artisan important?
+
+
+because its save time and make project management easy instead of make it manually 
+
+

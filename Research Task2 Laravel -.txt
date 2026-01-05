@@ -1,0 +1,87 @@
+Research Task2 Laravel :-
+
+
+1.1 Explanation for each folder
+
+app: its contain the core code of your project , contain the application logic
+the file that app contains: http, console 
+
+app/http: to handle request and response in api and web 
+app/console : for command line , and for artisan commands 
+
+routes: its a folder that contain all the url's required for your application and define how the url should be handle .(connect each url to its controller or logic).
+
+resource: its a folder that contain all front-end source such as css , js before they compiled
+
+public: it's contains all files served directly to the user by the brower 
+contain js , css , images , index.php 
+(the browser can directly access public folder unlike resourses or app)
+
+config : it's a folder that contains all settings files of the applicatoin like connecting to database and authintication , cache etc..
+
+database : it's a folder contain all database related files such as migrations , seeders 
+which define table structure and relationships(manage database structure and data shortly)
+
+-migration for table creation and edit 
+-seeders for enter a test data
+-factories for generate a fake data
+
+___________________________________________________________
+
+1.2  Identify where MVC lives in the project
+
+mvc stands for model-view-controller 
+model for database handling 
+view for presentation (display data to a user) and all front-end related 
+controller for logic and all functions 
+
+__________________________________________________________
+
+
+2.1&2.2 List 3 Artisan commands
+
+php artisan serve : it runs the local server
+php artisan make:controller  ControllerName : create a new controller file 
+php artisan make:model ModelName : create a new model file 
+
+
+______________________________________________________________
+ 
+3 Explain the request flow in simple words:
+
+a user send a request will reach to the route
+and the route will decide which controller will handle it
+, the controller will process the logic (sometimes fetch data from model) 
+after that the controller will pass the data to the view which renders the html to the user , 
+The rendered view is sent back as a response to the user's browser.
+___________________________________________________________________
+
+4.1 What URL it handles
+
+Route : handles user URL + HTTP method (GET, POST, PUT, DELETE).
+_____________________________________________________________
+
+4.2
+a route tells laravel which controller and method should handle a request to a specific url.
+__________________________________________________________________
+
+5
+- the controller fetch the data from the model and send it to the blade 
+blade will display data using {{}} and can use conditionals and loops.
+______________________________________________________________________
+
+6
+
+layout allow you to put the general structure to the pages once such as (header ,footer, sidebar) , a diff views will use this layout using @extends and fill a certain points with @yeild , @section 
+
+that will make code reusable , organized and easy of maintenance 
+
+______________________________________________________________________
+
+7
+
+Conditionals for show content based on a condition
+Loops for repeat content for multiple items
+
+
+
