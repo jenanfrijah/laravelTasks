@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 @include ('layout.head')
+</head>
 <body class="sb-nav-fixed">
 @include('layout.header')
 <div id="layoutSidenav">
@@ -12,5 +14,6 @@
         @include('layout.footer')
     </div>
 </div>
+@include('layout.scripts')
 </body>
 </html>
